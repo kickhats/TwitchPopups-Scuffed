@@ -4,7 +4,7 @@ Allows Twitch mods to display popup text on the stream via chat commands. This i
 
 Here's a demonstration of what it looks like -
 
-![popupDemo](https://i.imgur.com/8kFrbep.mp4)
+![popupDemo](https://i.imgur.com/8kFrbep.gif)
 
 ## COMMAND LIST
 
