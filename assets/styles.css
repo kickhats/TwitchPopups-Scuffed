@@ -1,21 +1,42 @@
 #popuptext {
     display: inline-block;
-    font-family: 'Open Sans Condensed';
-    font-weight: 700;
+    font-family: 'Bahnschrift';
+    font-weight: normal;
+    text-transform: lowercase;
     color: white;
     font-size: 60px;
-    margin: 0;
+    margin: 5px;
     margin-left: 15px;
     white-space: nowrap;
+    text-shadow: 1px 1px #ff0000;
 }
 
 #popupbox {
+    border-radius: 20px;
     position: absolute;
     bottom: 20px;
     left: 20px;
     width: 0px;
     height: 82px;
     overflow: hidden;
+    animation: animate 10s ease infinite;
+}
+@keyframes animate{
+    0%{
+        background-color: #12c2e9;
+    }
+    50%{
+        background-color: #c471ed;
+    }
+    25%{
+        background-color: #dc9c00;
+    }
+    75%{
+        background-color: #654ea3;
+    }
+    100%{
+        background-color: #12c2e9;
+    }
 }
 
 iframe {
@@ -41,3 +62,4 @@ body {
     margin-right: -7px;
     margin-left: -8px;
 }
+

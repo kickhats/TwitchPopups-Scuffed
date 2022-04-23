@@ -1,6 +1,10 @@
-# TwitchPopups
+# TwitchPopups-Scuffed
 
-Allows Twitch mods to display popup text on the stream via chat commands
+Allows Twitch mods to display popup text on the stream via chat commands. This is a fork of [Limmy's TwitchPopups](https://github.com/DaftLimmy/TwitchPopups), and it's just a wee change you could do yourself with some small CSS changes. You could, however, just download this, however!
+
+Here's a demonstration of what it looks like -
+
+![popupDemo](https://i.imgur.com/8kFrbep.mp4)
 
 ## COMMAND LIST
 
@@ -10,16 +14,19 @@ Allows Twitch mods to display popup text on the stream via chat commands
 
 ## DOWNLOAD
 
-The latest version of TwitchPopups can be found [as a zip archive here](https://github.com/DaftLimmy/TwitchPopups/archive/master.zip)
+The latest version of TwitchPopups-Scuffed can be found [as a zip archive here](https://github.com/kickhats/TwitchPopups-Scuffed/archive/master.zip)
 
 ## INSTRUCTIONS
 
 1. Extract the zip archive
-2. Edit settings.js and change "Limmy" to your Twitch channel name
+2. Edit settings.js and change "kickhats" to your Twitch channel name
 3. Use OBS/Streamlabs OBS to add twitchpopups.htm as a browser source (Fit to Screen, 1920x1080)
 4. Tick "Shutdown source when not visible" in browser source properties. That way, any tweaks you make are reloaded when you toggle the visibility button
 
 ## UPGRADE
+
+**This is a hobby project, updates to TwitchPopups-Scuffed may become available after TwitchPopups updates. Maybe not.**
+
 1. Open your existing twitchpopups.htm and copy your configuration settings
 2. Download the latest version
 3. Open the zip archive and open the TwitchPopups-master directory

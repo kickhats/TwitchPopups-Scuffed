@@ -5,7 +5,7 @@ const popup = {
     showText: (text, bgColour) => {
         $("#popupbox").show();
         $("#popuptext").html(text);
-        $("#popupbox").css({ "background-color": bgColour });
+    //    $("#popupbox").css({ "background-color": bgColour });
         $("#popuptext").css({ "opacity": 0, "margin-left": "50px" });
 
         const textWidth = $("#popuptext").width();
