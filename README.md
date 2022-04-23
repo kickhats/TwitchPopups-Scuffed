@@ -2,9 +2,9 @@
 
 Allows Twitch mods to display popup text on the stream via chat commands. This is a fork of [Limmy's TwitchPopups](https://github.com/DaftLimmy/TwitchPopups), and it's just a wee change you could do yourself with some small CSS changes. You could, however, just download this, however!
 
-Here's a demonstration of what it looks like -
+Sample image - 
 
-![popupDemo](https://i.imgur.com/8kFrbep.gif)
+![sample](https://i.imgur.com/RtJ49NT.png)
 
 ## COMMAND LIST
 
